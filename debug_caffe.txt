@@ -1,0 +1,20 @@
+/backbone/stem/stem.0/conv/Conv Conv
+/backbone/stem/stem.0/activate/LeakyRelu LeakyRelu
+0.009999999776482582
+/backbone/stem/stem.1/conv/Conv Conv
+/backbone/stem/stem.1/activate/LeakyRelu LeakyRelu
+0.009999999776482582
+/backbone/stem/stem.2/conv/Conv Conv
+/backbone/stem/stem.2/activate/LeakyRelu LeakyRelu
+0.009999999776482582
+/backbone/stage1/stage1.0/conv/Conv Conv
+#####0<MyCaffe.Function object at 0x7f6610e55890> ###### layer
+#####1<MyCaffe.Function object at 0x7f6611f78350> ###### layer
+#####2<MyCaffe.Function object at 0x7f6611b71610> ###### layer
+#####3<MyCaffe.Function object at 0x7f6610e31d50> ###### layer
+#####4<MyCaffe.Function object at 0x7f6610e31410> ###### layer
+#####5<MyCaffe.Function object at 0x7f6610e61a90> ###### layer
+#####6<MyCaffe.Function object at 0x7f6610e61b10> ###### layer
+#####7<MyCaffe.Function object at 0x7f6610e61b50> ###### layer
+input node: ['input']
+output node: ['/backbone/stage1/stage1.0/conv/Conv_output_0']

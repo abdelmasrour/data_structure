@@ -2,16 +2,32 @@ Plan de la journée :
 
 
 - 
+Géneration des fichiers onnx :
+
+ python deploiment_utils/convert_pth_to_onnx.py 
 
 
 Conversion de onnx en caffe :
+outil : 
+repistory_1 : https://github.com/xxradon/ONNXToCaffe
+python convertCaffe.py ./model/MobileNetV2.onnx ./model/MobileNetV2.prototxt ./model/MobileNetV2.caffemodel
+
+changement 
+opset version commenter code 
+# /home/masrour/ONNXTOCaffe/onnx2caffe/_operators.py dans la fin de la fonction : make_input
+repistory_2 :
+
+codage des couches HardSigmoid et Resize 
+dans le fichier : /home/masrour/ONNXToCaffe/onnx2caffe/_operators.py
+
 
 ==> ONNXToCaffe
 convertCaffe : 
 
 ==>
 
-repistory : 
+ ##### dnndk examples  #####
+ /home/masrour/Downloads/Vitis-AI-1.2.1/mpsoc/vitis_ai_dnndk_samples/pose_detection
 Quantifier avec dnnc
 c'est ça marche passe 
 compile 
