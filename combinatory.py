@@ -2,7 +2,9 @@ import itertools
 import math
 from itertools import combinations_with_replacement
 from collections import Counter
-
+def C_k_n(n: int):
+    L_=[]
+    
 def picking_cards(L: list)->int:
     if len(L)<=max(L):
         return 0

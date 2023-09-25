@@ -1,0 +1,20 @@
+Plan de la journée :
+
+
+- 
+
+
+Conversion de onnx en caffe :
+
+==> ONNXToCaffe
+convertCaffe : 
+
+==>
+
+repistory : 
+Quantifier avec dnnc
+c'est ça marche passe 
+compile 
+au deployement 
+c++
+
